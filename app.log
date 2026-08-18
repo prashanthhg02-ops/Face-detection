@@ -1,0 +1,8 @@
+2026-08-18 08:21:44,888 - __main__ - INFO - Initializing Face Detection Application...
+2026-08-18 08:21:44,894 - src.face_detector - INFO - Cascade classifier not available, will use edge-based detection
+2026-08-18 08:21:44,895 - src.face_detector - INFO - Face detector initialized with model: haarcascade
+2026-08-18 08:21:44,954 - src.aiml_chatbot - ERROR - Error loading AIML files: module 'time' has no attribute 'clock'
+2026-08-18 08:21:44,955 - src.aiml_chatbot - INFO - AIML Chatbot initialized successfully
+2026-08-18 08:21:44,958 - __main__ - INFO - Application initialized successfully
+2026-08-18 08:22:27,890 - __main__ - INFO - Webcam initialized successfully
+2026-08-18 08:22:27,891 - __main__ - INFO - Starting main application loop

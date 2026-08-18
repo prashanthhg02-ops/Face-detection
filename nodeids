@@ -1,0 +1,14 @@
+[
+  "tests/test_chatbot.py::TestAIMLChatbot::test_get_detection_status_multiple_faces",
+  "tests/test_chatbot.py::TestAIMLChatbot::test_get_detection_status_no_faces",
+  "tests/test_chatbot.py::TestAIMLChatbot::test_get_detection_status_one_face",
+  "tests/test_chatbot.py::TestAIMLChatbot::test_initialization",
+  "tests/test_chatbot.py::TestAIMLChatbot::test_respond",
+  "tests/test_chatbot.py::TestAIMLChatbot::test_update_face_info",
+  "tests/test_face_detector.py::TestFaceDetector::test_detect_faces_empty_frame",
+  "tests/test_face_detector.py::TestFaceDetector::test_draw_faces",
+  "tests/test_face_detector.py::TestFaceDetector::test_extract_face_roi",
+  "tests/test_face_detector.py::TestFaceDetector::test_get_face_count",
+  "tests/test_face_detector.py::TestFaceDetector::test_initialization",
+  "tests/test_face_detector.py::TestFaceDetector::test_merge_overlapping_regions"
+]

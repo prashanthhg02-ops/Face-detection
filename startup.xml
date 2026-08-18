@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Greeting patterns -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! I'm a face detection chatbot. Ask me about detected faces or anything else!</template>
+    </category>
+    
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi there! How can I help you today?</template>
+    </category>
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>Hello <star/>! Nice to meet you. I'm here to help with face detection inquiries.</template>
+    </category>
+    
+    <!-- Face detection queries -->
+    <category>
+        <pattern>HOW MANY FACES</pattern>
+        <template>I can detect and track multiple faces in real-time from your webcam feed.</template>
+    </category>
+    
+    <category>
+        <pattern>DETECT FACE*</pattern>
+        <template>Face detection is active. I'm scanning the video stream for faces using OpenCV and neural networks.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU DETECTING</pattern>
+        <template>I'm detecting human faces in the video stream using advanced computer vision algorithms.</template>
+    </category>
+    
+    <!-- Application controls -->
+    <category>
+        <pattern>HELP</pattern>
+        <template>I can help you with:
+- Face detection information
+- General conversation
+- Application status
+- Keyboard controls (press 'q' to quit, 's' to save faces, 'c' to chat)
+What would you like to know?</template>
+    </category>
+
+    <category>
+        <pattern>WHAT CAN YOU DO</pattern>
+        <template>I can provide information about face detection, answer general questions, and help with the application.</template>
+    </category>
+    
+    <!-- Status queries -->
+    <category>
+        <pattern>STATUS</pattern>
+        <template>The face detection system is running normally. I'm actively monitoring the webcam feed.</template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>I'm working well! Detecting faces in real-time. Everything is running smoothly.</template>
+    </category>
+
+    <category>
+        <pattern>ARE YOU RUNNING</pattern>
+        <template>Yes, I'm running and actively monitoring for faces in your webcam feed.</template>
+    </category>
+    
+    <!-- About the project -->
+    <category>
+        <pattern>ABOUT</pattern>
+        <template>This is a Face Detection with AIML project - combining real-time computer vision with conversational AI.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THIS PROJECT</pattern>
+        <template>This project combines real-time face detection using OpenCV with AIML chatbot capabilities for interactive face detection queries.</template>
+    </category>
+    
+    <!-- Technical info -->
+    <category>
+        <pattern>TECHNOLOGIES</pattern>
+        <template>I use OpenCV for computer vision, TensorFlow for neural networks, and AIML for conversational responses.</template>
+    </category>
+
+    <category>
+        <pattern>HOW DOES DETECTION WORK</pattern>
+        <template>Face detection works by analyzing video frames and identifying facial features using trained neural networks and cascading classifiers.</template>
+    </category>
+    
+    <!-- Affirmative responses -->
+    <category>
+        <pattern>YES</pattern>
+        <template>Great! Feel free to ask me anything about face detection.</template>
+    </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <template>No problem. What else would you like to know?</template>
+    </category>
+    
+    <!-- Fallback/default responses -->
+    <category>
+        <pattern>*</pattern>
+        <template>That's interesting! Could you tell me more about that? Or ask me about face detection!</template>
+    </category>
+</aiml>
